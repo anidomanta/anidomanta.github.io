@@ -132,7 +132,7 @@ body {
     #illust ul li{
         margin: 0 0 30px 50px;
         padding: 10px 0;
-        float: left;  
+        display: inline; 
         list-style: none;
 }
     #illust ul li:nth-child(3n){
