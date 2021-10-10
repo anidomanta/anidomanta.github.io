@@ -1,1 +1,203 @@
-@charset "utf-8"
+@charset "utf-8";
+
+img { vertical-align: bottom; }
+header {
+    text-align: center;
+    font-size: 30px;
+}
+#global_navi {
+    width: 500px;
+    overflow: hidden;
+    margin: 16px auto;
+    font-size: 26px;
+}
+#global_navi ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#global_navi ul li {
+    width: 165px;
+    float: left;
+    margin-right: 1px;
+    text-align: center;
+}
+body {
+    background-image: url(background.png);
+    background-size: 50%;
+    background-color: rgba(255,255,255,0.7);
+    background-blend-mode: lighten;
+}
+#main {
+    text-align: center;
+    background-color: #FFFFFF;
+}
+#game {
+    margin: 0 300px 0 300px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+#game h2{
+    text-align: center;
+}
+#game h3{
+    font-size: 26px;
+    margin-left: 20px;
+}
+#game a{
+    font-size: 26px;
+}
+#game ul {
+        list-style: none;
+}
+#yuno {
+    padding: 10px;
+    margin: 0 40px 0 0;
+    border: 1px solid #000;
+    z-index: 2;
+}
+#yuno img {
+    position: relative;
+    margin: 20px;
+}
+#yuno p {
+    margin: 0 100px 40px 0px;
+    overflow: hidden;
+    position: relative;
+    left: 20px;
+    right: 40px;
+}
+#majinai {
+    margin: 30px 40px 0 0;
+    padding: 10px;
+    border: 1px solid #000;
+    z-index: 2;
+}
+#majinai img {
+    position: relative;
+    margin: 20px;
+}
+#majinai p {
+    display: flex;
+    margin: 0 100px 40px 0px;
+    position: relative;
+    left: 20px;
+    right: 40px;
+}
+#VS {
+    margin: 30px 40px 0 0;
+    padding: 10px;
+    border: 1px solid #000;
+    z-index: 2;
+}
+#VS img {
+    position: relative;
+    margin: 20px;
+}
+#VS p {
+    display: flex;
+    margin: 0 100px 40px 0px;
+    position: relative;
+    left: 20px;
+    right: 40px;
+}
+#cleanrun {
+    margin: 30px 40px 0 0;
+    padding: 10px;
+    border: 1px solid #000;
+    z-index: 2;
+}
+#cleanrun img {
+    position: relative;
+    margin: 20px;
+}
+#cleanrun p {
+    display: flex;
+    margin: 0 100px 40px 0px;
+    position: relative;
+    left: 20px;
+    right: 40px;
+}
+    #illust {
+        border: 3px solid #000;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        margin: 30px;
+}
+    #illust h2 {
+        text-align: center;
+}
+    #illust ul li{
+        margin: 0 0 30px 50px;
+        padding: 10px 0;
+        float: left;  
+        list-style: none;
+}
+    #illust ul li:nth-child(3n){
+        margin-right: 0;
+}
+    #illust p {
+        margin: 0 300px 10px 10px;
+        text-align: left;
+}
+    #illust a{
+        font-size: 26px;
+}
+#sound {
+    margin: 0 500px 50px 500px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+    #sound h2 {
+        text-align: center;
+}
+    #sound h3 {
+        font-size: 26px;
+}
+#sound ul{
+        text-align: center;
+        list-style: none;
+        margin: 0;
+    padding: 0;
+}
+    #sound a{
+        font-size: 26px;
+}
+#sns {
+     text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: #352b23
+}
+footer #footer_navi{
+    background-color: #efefef;
+    padding: 10px 0;
+}
+footer #footer_navi li{
+    display: inline;
+    border-left: 1px solid #aaa;
+    margin-left: 8px;
+    padding-left: 8px;
+}
+footer #footer_navi li:last-child {
+    border-right: 1px solid #aaa;
+    padding: 0 8px;
+}
+footer #link_navi{
+    padding: 10px 0;
+}
+footer #link_navi ul li{
+    margin: 10px;
+    list-style: none;
+    text-align: center;
+}
+footer small {
+    display: block;
+    padding: 8px 0;
+    color: #fff;
+}
