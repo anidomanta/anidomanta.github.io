@@ -211,14 +211,14 @@ footer small {
 
 @media screen and (max-width:640px)
 {
-    .box{
+    .yunoImg{
         margin-right: 10px;
         margin-left: 10px;
     }
 }
 @media screen and (min-width:640px)
 {
-    .box{
+    .yunoImg{
        width:620px;
        margin-right:auto;
        margin-left: auto;
