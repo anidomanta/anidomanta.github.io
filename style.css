@@ -211,16 +211,16 @@ footer small {
 
 @media screen and (max-width:640px)
 {
-    .yunoImg{
+
         margin-right: 10px;
         margin-left: 10px;
-    }
+
 }
 @media screen and (min-width:640px)
 {
-    .yunoImg{
+
        width:620px;
        margin-right:auto;
        margin-left: auto;
-    }
+
 }
