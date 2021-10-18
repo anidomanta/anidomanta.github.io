@@ -208,3 +208,19 @@ footer small {
     padding: 8px 0;
     color: #fff;
 }
+
+@media(max-width:640px)
+{
+    .box{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+@media(min-width:640px)
+{
+    .box{
+       width:620px;
+       margin-right:auto;
+       margin-left: auto;
+    }
+}
